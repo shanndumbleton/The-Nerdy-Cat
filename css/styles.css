@@ -1,0 +1,136 @@
+body {
+  margin: 0;
+  text-align: center;
+  font-family: 'Montserrat', sans-serif;
+  color: #F5F5F5;
+  background-color: black;
+}
+
+h1 {
+  margin: 50px auto 0 auto;
+  font-family: 'Roboto', sans-serif;
+  color: white;
+  font-size: 6.625rem;
+}
+
+h2 {
+  font-family: 'Open Sans', sans-serif;
+  font-size: 2.5rem;
+  color: white;
+  font-weight: normal;
+  padding-bottom: 50px;
+}
+
+h3 {
+  font-family: 'Montserrat', sans-serif;
+  color: white;
+}
+
+a {
+  color: white;
+  font-family: 'Montserrat', sans-serif;
+  margin: 10px 20px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #f28c0e;
+}
+
+hr {
+  border-style: dotted none none;
+  border-color: #232323;
+  border-width: 7px;
+  width: 4%;
+  margin: 300px auto;
+}
+
+p {
+  margin-bottom: 40px;
+  line-height: 2;
+}
+
+.tagline {
+  margin: 100px auto;
+}
+
+.hellopara {
+  margin: auto auto 100px auto;
+  width: 30%;
+}
+
+.top-container {
+  position: relative;
+  padding-top: 100px;
+}
+
+.profile-image {
+  border-radius: 50%;
+  width: 150px;
+  margin-top: 30px;
+}
+
+.skillone {
+  width: 200px;
+  float: left;
+  margin-right: 30px;
+  padding-bottom: 40px;
+}
+
+.skillsparaone {
+  margin-bottom: 40px;
+}
+
+.skilltwo {
+  width: 200px;
+  float: right;
+  margin-left: 30px;
+}
+
+.skill-row {
+  width: 50%;
+  margin: 100px auto 100px auto;
+  text-align: left;
+}
+
+.middle-container {
+  margin: 100px 0;
+}
+
+.bottom-container {
+  height: 100px;
+  padding: 50px 0 20px;
+}
+
+.copyright {
+  font-size: 0.75rem;
+  color: #e6f8f9;
+  padding: 20px 0;
+}
+
+.contact-message {
+  width: 40%;
+  margin: 40px auto 60px;
+}
+
+.btn {
+  background: #f28c0e;
+  background-image: -webkit-linear-gradient(top, #f28c0e, #e8a85a);
+  background-image: -moz-linear-gradient(top, #f28c0e, #e8a85a);
+  background-image: -ms-linear-gradient(top, #f28c0e, #e8a85a);
+  background-image: -o-linear-gradient(top, #f28c0e, #e8a85a);
+  background-image: linear-gradient(to bottom, #f28c0e, #e8a85a);
+  -webkit-border-radius: 28;
+  -moz-border-radius: 28;
+  border-radius: 28px;
+  font-family: Arial;
+  color: #ffffff;
+  font-size: 20px;
+  padding: 10px 20px 10px 20px;
+  text-decoration: none;
+}
+
+.btn:hover {
+  background: #030303;
+  text-decoration: none;
+}
